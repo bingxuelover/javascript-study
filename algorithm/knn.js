@@ -20,7 +20,8 @@ function knn(kFirst, kNext){
 knn(k1,k2)
 knn(k1,k3)
 knn(k2,k3)
-// console.log('minSum', minSum);
+console.log('minSum', minSum);
+
 //回归
 //选取标本个数
 let numSquare = 2
@@ -37,6 +38,7 @@ function knnRegress(kFirst, kNext){
 knnRegress(k2,k3)
 knnRegress(k1,k3)
 knnRegress(k1,k2)
+
 //最小值
 let minNum = Math.min(...minArr)
 //从小到达排列
